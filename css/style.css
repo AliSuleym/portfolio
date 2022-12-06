@@ -7,7 +7,14 @@ grid-template-rows: 1fr 1fr 1fr 1fr;
   background-color: blue;
   overflow: hidden;
 }
-{
+}
+.containerGrid{
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+}
+/*{
   box-sizing: border-box;
 }
 
@@ -17,13 +24,7 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
  
-  }
-  .containerGrid{
-    display: grid;
-    grid-template-rows: 25% 25% 25% 25%;
-    grid-template-columns: 50% 50%;
-    gap: 10px;
-  }
+  
 }
 
 h1,
@@ -38,3 +39,4 @@ h6 {
 p {
   margin: 0;
 }
+*/
