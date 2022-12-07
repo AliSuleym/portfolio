@@ -1,57 +1,95 @@
 <!DOCTYPE html>
-<html lang="en-gb">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ali // Web Developer</title>
+  <link rel="stylesheet" href="./assets/style.css" >
 </head>
-
 <body>
-  <!-- main logo / nav -->
-  
-  <header>
+  <nav>
+    <div class="logo"> ALi Suleyman</div>
+   
+    <ul class="nav-container" id="nav-list">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#Work">Projects</a></li>
+      <li><a href="#Resoume">contact</a></li>
+    </ul>
+  </nav>
+<h1 class="aboutme" id="about">  
+  About Me
+</h1>
+<p class="text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit velit, adipisci minima quis aliquid quisquam consectetur possimus officiis fugiat distinctio reiciendis laboriosam aliquam a rem sequi, eos voluptas veniam odit? <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia iste hic architecto quos saepe, aut quisquam odit. Temporibus fugit ipsa debitis iure autem eos atque qui placeat, libero accusamus? Excepturi.</p>
+
+<section class="project-container" id="projects">
+  <h2 class="Project-title">Projects</h2>
+
+  <div class="project-container">
+    <div class="project-card grow">
+        <img
+          class="project-image"
+          src="./images/02-portfolio-1.jpg"
+          alt=""
+        />
     
-    <h1>Lernantino</h1>
-    <img src="images/02-hero-bg.jpg" alt="">
-    <nav>
-      
-    </nav>
-  </header>
-  <div class="wrapper">
-  <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, ad.</div>
-  <div class="item2">test</div>
-  <div class="item3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, optio!</div>
-  <div class="item4">item4</div>
-  <div class="item5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, ratione!</div>
-  <div class="item6">item6</div>
-  </div>
-
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
+       
+      <div class="project-information">
+        <h3>ali</h3>
+        <p class="subtext">
+          For our first project, we developed an application that takes in user values and generates a daily calorie requirement based on the users desired health goal. The app then presents the user with recipes that will allow the user to meet their daily calorie requirements.
+        </p>
+      </div>
     </div>
-  </section>
-
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2><a href="#">About Me</a></h2>
-    </section>
-
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2><a href="#">Work</a></h2>
-    </section>
-
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2><a href="#">Contact Me</a></h2>
-    </section>
-  </main>
+     <!-- project card -->
+    <div class="project-card grow">
+     
+        <img
+          class="project-image"
+          src="/images/02-portfolio-2.jpg"
+          alt="Creative_Labs_Screenshot"
+        />
+    
+      <div class="project-information">
+        <h3>home</h3>
+        <p class="subtext">
+          A social platform where creators can connect and build projects.
+        </p>
+      </div>
+    </div> 
+    <div class="project-card grow">
+        <img
+          class="project-image"
+          src="/images/02-portfolio-3.jpg"
+          alt="bav kudhail first portfolio screenshot"
+        />
+  
+      <div class="project-information">
+        <h3> Dashboard</h3>
+        <p class="subtext">
+          A weather dashboard application that allows the user to see the weather outlook for any desired city.
+        </p>
+      </div>
+    </div> 
+   
+    <div class="project-card larger grow">
+     
+        <img
+          class="project-image"
+          src="/images/02-portfolio-4.jpg"
+          alt="bav kudhail first portfolio screenshot"
+        />
+     
+      <div class="project-information">
+        <h3>Cod!</h3>
+        <p class="subtext">
+          A timed coding quiz based on javascript fundamentals. The application stores the users high scores allowing them to track their progress and compete against others.
+        </p>
+    </div>
+</div>
+</div>
+</section>
 </body>
 
 </html>

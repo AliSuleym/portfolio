@@ -1,0 +1,146 @@
+
+:root {
+  --primaryColor1: #0c0e3f;
+  --primaryColor2: #262de2;
+  --secondaryColor1: #eb59a7;
+  --secondaryColor2: #d337b9;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* this sets the default font for the body-element */
+  font-family: "Roboto", sans-serif;
+}
+footer {
+  border-top: 1px solid #0c0e3f;
+  background-color: var(--secondaryColor1);
+  color: white;
+  text-align: center;
+  padding: 100px;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 3rem;
+}
+.logo {
+  color: var(--secondaryColor1);
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  background-color: var(--primaryColor1);
+  color: white;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 300px;
+  font-size: 30px;
+  justify-content: space-around;
+}
+nav ul li a {
+  color: white;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.aboutme {
+  color: #d337b9;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  text-decoration: underline;
+  
+}
+ .text{
+  font-size: large;
+  font-family:'Courier New', Courier, monospace;
+  margin-left: 400px;
+  margin-top: -80px;
+  font-weight: bold;
+ }
+
+ .project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.project-card {
+  box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.3);
+  margin: 30px;
+  border-radius: 30px;
+  background-color: #fff;
+  color: black;
+}
+
+.project-information {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+.project-information a {
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  background-color: var(--secondaryColor1);
+  color: #fff;
+  border-radius: 30px;
+}
+.project-information a:hover {
+  background-color: #293488;
+}
+
+
+.subtext {
+  margin: 20px;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.project-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+
+.project-link {
+  text-decoration: none;
+  color: var(--primaryColor1);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.thankyou-page {
+  background-color: var(--primaryColor1);
+  color: var(sec);
+  height: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
