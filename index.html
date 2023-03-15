@@ -1,85 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ali // Web Developer</title>
-  <link rel="stylesheet" href="./assets/style.css" >
+<html lang="en-gb">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio // Web Developer</title>
+  <link rel="stylesheet" href="./asset/style.css" />
 </head>
+
 <body>
-  <nav>
-    <div class="logo"> ALi Suleyman</div>
-   
-    <ul class="nav-container" id="nav-list">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">contact</a></li>
-    </ul>
-  </nav>
-<h1 class="aboutme" id="about">  
-  About Me
-</h1>
-<p class="text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit velit, adipisci minima quis aliquid quisquam consectetur possimus officiis fugiat distinctio reiciendis laboriosam aliquam a rem sequi, eos voluptas veniam odit? <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia iste hic architecto quos saepe, aut quisquam odit. Temporibus fugit ipsa debitis iure autem eos atque qui placeat, libero accusamus? Excepturi.</p>
-
-<section class="project-container" id="projects">
-  <h2 class="Project-title">Projects</h2>
-
-  <div class="project-container">
-    <div class="project-card grow">
-        <img
-          class="project-image"
-          src="./images/WhatsApp Image 2022-12-04 at 22.14.56.jpeg"
-          alt=""
-        />
-    
-       
-      <div class="project-information">
-        <h3>Ali</h3>
-       
+  <!-- main logo / nav -->
+ <section class="hero-banner">
+    <nav class="nav">
+      <div class="logo"><h1 class="portfolio">Portfolio</h1>
       </div>
-    </div>
-     <!-- project card -->
-    <div class="project-card grow">
-     
-        <img
-          class="project-image"
-          src="/images/02-portfolio-2.jpg"
-          alt="Creative_Labs_Screenshot"
-        />
-    
-      <div class="project-information">
-        <h3>culclater</h3>
-      </div>
-    </div> 
-    <div class="project-card grow">
-        <img
-          class="project-image"
-          src="/images/02-portfolio-3.jpg"
-          alt=""
-        />
-  
-      <div class="project-information">
-        <h3> car</h3>
-        
-      </div>
-    </div> 
-   
-    <div class="project-card larger grow">
-     
-        <img
-          class="project-image"
-          src="/images/02-portfolio-4.jpg"
-          alt=""
-        />
-     
-      <div class="project-information">
-        <h3>Code!</h3>
-      
-    </div>
-</div>
-</div>
+       <ul class="nav-bar-elements">
+        <li><a href="#about">About me</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact me</a></li>
+      </ul>
+    </nav>
+    <div class="subtitlecontainer"><h1 class="subtitle"> Welcome...!</h1></div>
 </section>
+
+  <main class="page-wrapper">
+    <!-- about me -->
+    <section class="about-me-grid" id="about">
+      <h2 class ="about-me">About Me</h2>
+      <p class="about-me-text"> Hello My name is Ali and I am an aspiring front-end developer amd I am enjoying this journey.
+	  </section>
+
+    <!-- portfolio container -->
+    <section class="page-section" id="work">
+      <h2 class="work">Work</h2>
+      <div class="page-section-grid">
+        <div class="grid-element-1">
+          <a href="https://github.com/AliSuleym/portfolio" target="_blank"><h1 class="heading-title">Github Projects</h1></a>
+          
+        </div>
+		
+        <div class="grid-element-2 "><h1 class="heading-title">Project-2</h1></div>
+        <div class="grid-element-3"><h1 class="heading-title">Project-3</h1></div>
+        <div class="grid-element-4"><h1 class="heading-title">Project-4</h1></div>
+        <div class="grid-element-5"><h1 class="heading-title">Project-5</h1></div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="page-section-contact" id="contact">
+      <h1 class="contact-me">Contact Me</h1>
+      <ul class="footer-elements">
+        <li>555.555.555.</li>
+        <li><a href="https://github.com/AliSuleym?tab=repositories" target="_blank">GitHub</a></li>
+        <li>ams.ma@hotmail.com</li>
+      </ul>
+    </section>
+  </main>
 </body>
 
 </html>
